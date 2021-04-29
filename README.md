@@ -20,11 +20,11 @@ For the initial project prototype, I decided to go with an Arduino Uno, a mini s
 ## Project Code & Physical Design
 For the physical aspects of my design, everything fits inside the Adafruit box with two mini breadboards tying everything together. Black wires signify ground (three-pin connections total), red is for power (5V), and the other wires match their respective breakout for carrying data.
 
-Upon taking a look at my project code, all features encapsulate the instructions function. The program header describes the servo, water sensor, and RGB LED pin utilization to mirror my wiring setup. The locking and unlocking commands control the servo motor through their respective functions, while getWaterLevel (looping function) and showColor (table-driven programming) run repeatedly to send and receive the most accurate end-user information.
+Upon taking a look at my project code, all features encapsulate the instructions function. The program header describes the servo, water sensor, and RGB LED pin utilization to mirror my wiring setup. The locking and unlocking commands control the servo motor through their respective functions, while `getWaterLevel` (looping function) and `showColor` (table-driven programming) run repeatedly to send and receive the most accurate end-user information.
 
 ![bear-aware-wires](https://user-images.githubusercontent.com/7608183/116511136-75bd2400-a872-11eb-9827-3f4ccf7bc082.JPG)
 
 ## Conclusion
 Lessons learned with this project included scope creep, time management, reading documentation, and ordering researched parts. My favorite aspect would have to be taking what we learned in the lab and experimenting with the interactions between multiple components.
 
-For future improvements, I hope to conduct additional outdoor weather testing to explore the limitations of water and sub-zero temperatures. In addition to including an accelerometer & magnetometer (only need a STEMMA QT / Quiic JST SH 4-pin connection cable), an independent power supply (with solar power or rechargeable batteries), and IFTTT/Twilio SMS integration as the next iteration in the Bear Aware Smart Latch system.
+For future improvements, I hope to conduct additional outdoor weather testing to explore the limitations of water and sub-zero temperatures. In addition to including an accelerometer & magnetometer (only need a STEMMA QT / Quiic JST SH 4-pin connection cable), an independent power supply (with solar power or rechargeable batteries), and IFTTT/Twilio SMS integration as the next iteration in the *Bear Aware Smart Latch* system.
