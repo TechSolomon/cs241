@@ -50,7 +50,7 @@ void lock() {
   showColor(denied);
 }
 
-// Open from closed position = 180 degrees to 0 degrees.
+// Open from closed position = 45 degrees to 0 degrees.
 void unlock() {
   for (pos = 45; pos >= 0; pos -= 1) {
     latch.write(pos);
